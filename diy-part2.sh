@@ -26,7 +26,7 @@ sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-defaul
 # 修改版本号
 sed -i "s/OpenWrt /MOLUN build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
-# 修改默认wifi名称ssid为tymishop
+# 修改默认wifi名称ssid为0ALL
 sed -i 's/ssid=OpenWrt/ssid=0ALL/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #开启MU-MIMO
